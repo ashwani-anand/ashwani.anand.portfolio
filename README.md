@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website with Azure AI
 
-## Getting Started
+Welcome to my portfolio website! This project showcases my work, skills, and projects. It is built using **Next.js** and leverages **Azure AI** for an interactive chatbot that answers questions about my professional experience and skills.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **Interactive AI Chatbot**: Built with Azure AI, the chatbot provides insights into my background and allows users to ask about my experience and projects.
+- **Showcase of Work**: Displays recent projects, work experience, and skills in a dynamic format.
+- **Downloadable Resume**: Users can easily access and download my resume.
+- **Social Media Links**: Direct links to my GitHub, LinkedIn, and other professional platforms.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** (React Framework)
+- **Azure AI** (For the chatbot functionality)
+- **Tailwind CSS** (For styling)
+- **React** (For frontend interactivity)
+- **Vercel** (For deployment)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Demo
 
-## Learn More
+You can view the live portfolio at:  
+[Portfolio Website](https://ashwani-anand.github.io/portfolio-website-azure-ai)
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```git clone https://github.com/ashwani-anand/portfolio-website-azure-ai.git
 
-## Deploy on Vercel
+2. Navigate to the project directory:
+    ```cd portfolio-website-azure-ai
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install dependencies:
+    ```npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Run the development server:
+    ```npm run dev
+
+5. Visit http://localhost:3000 in your browser to view the project.
