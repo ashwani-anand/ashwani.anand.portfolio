@@ -27,17 +27,25 @@ You can view the live portfolio at:
 
 To run the project locally, follow these steps:
 
+### Step 1: Clone the repository
 ```bash
-# 1. Clone the repository
 git clone https://github.com/ashwani-anand/portfolio-website-azure-ai.git
+```
 
-# 2. Navigate to the project directory
+### Step 2: Navigate to the project directory
+```bash
 cd portfolio-website-azure-ai
+```
 
-# 3. Install dependencies
+### Step 3: Install dependencies
+```bash
 npm install
+```
 
-# 4. Run the development server
+### Step 4: Run the development server
+```bash
 npm run dev
+```
+
 
 Visit http://localhost:3000 in your browser to view the project.
