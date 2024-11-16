@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ export default function Home() {
 
   const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    let newMessages = [...messages, { role: 'user', content: messageInput }]
+    const newMessages = [...messages, { role: 'user', content: messageInput }]
     setMessages(newMessages);
     setMessageInput('');
     const apiMessage = await fetch(
@@ -87,49 +87,50 @@ export default function Home() {
               </div>
               <div className="social-links">
                 <a href="https://github.com/ashwani-anand">
-                  <img src="./images/github.png" alt="GitHub" width="48" />
+                  <Image src="./images/github.png" alt="GitHub" width="48" />
                 </a>
                 <a href="https://www.linkedin.com/in/ashwani-anand">
-                  <img src="./images/linkedin.png" alt="LinkedIn" width="48" />
+                  <Image src="./images/linkedin.png" alt="LinkedIn" width="48" />
                 </a>
               </div>
             </div>
           </div>
           <div className="hero-yellow">
-            <img src="./images/hero.png" alt="Ashwani Anand" width="100%" />
+            <Image src="./images/hero.png" alt="Ashwani Anand" width={1200}
+              height={800} layout="responsive" />
           </div>
         </section>
         <section className="logos container">
           <div className="marquee">
             <div className="track">
-              <img src="./images/html.png" alt="HTML" width="128" />
-              <img src="./images/css.png" alt="CSS" width="128" />
-              <img src="./images/javascript.png" alt="Javascript" width="128" />
-              <img src="./images/react.png" alt="ReactJS" width="128" />
-              <img src="./images/nextjs.png" alt="NextJS" width="128" />
-              <img src="./images/nodejs.png" alt="NodeJS" width="128" />
-              <img src="./images/expressjs.png" alt="ExpressJS" width="128" />
-              <img src="./images/mongodb.png" alt="MongoDB" width="128" />
-              <img src="./images/mysql.png" alt="MySQL" width="128" />
-              <img src="./images/python.png" alt="Python" width="128" />
-              <img src="./images/java.png" alt="Java" width="128" />
-              <img src="./images/git.png" alt="Git" width="128" />
-              <img src="./images/github.png" alt="GitHub" width="128" />
-              <img src="./images/azure.png" alt="Azure" width="128" />
-              <img src="./images/html.png" alt="HTML" width="128" />
-              <img src="./images/css.png" alt="CSS" width="128" />
-              <img src="./images/javascript.png" alt="Javascript" width="128" />
-              <img src="./images/react.png" alt="ReactJS" width="128" />
-              <img src="./images/nextjs.png" alt="NextJS" width="128" />
-              <img src="./images/nodejs.png" alt="NodeJS" width="128" />
-              <img src="./images/expressjs.png" alt="ExpressJS" width="128" />
-              <img src="./images/mongodb.png" alt="MongoDB" width="128" />
-              <img src="./images/mysql.png" alt="MySQL" width="128" />
-              <img src="./images/python.png" alt="Python" width="128" />
-              <img src="./images/java.png" alt="Java" width="128" />
-              <img src="./images/git.png" alt="Git" width="128" />
-              <img src="./images/github.png" alt="GitHub" width="128" />
-              <img src="./images/azure.png" alt="Azure" width="128" />
+              <Image src="./images/html.png" alt="HTML" width="128" />
+              <Image src="./images/css.png" alt="CSS" width="128" />
+              <Image src="./images/javascript.png" alt="Javascript" width="128" />
+              <Image src="./images/react.png" alt="ReactJS" width="128" />
+              <Image src="./images/nextjs.png" alt="NextJS" width="128" />
+              <Image src="./images/nodejs.png" alt="NodeJS" width="128" />
+              <Image src="./images/expressjs.png" alt="ExpressJS" width="128" />
+              <Image src="./images/mongodb.png" alt="MongoDB" width="128" />
+              <Image src="./images/mysql.png" alt="MySQL" width="128" />
+              <Image src="./images/python.png" alt="Python" width="128" />
+              <Image src="./images/java.png" alt="Java" width="128" />
+              <Image src="./images/git.png" alt="Git" width="128" />
+              <Image src="./images/github.png" alt="GitHub" width="128" />
+              <Image src="./images/azure.png" alt="Azure" width="128" />
+              <Image src="./images/html.png" alt="HTML" width="128" />
+              <Image src="./images/css.png" alt="CSS" width="128" />
+              <Image src="./images/javascript.png" alt="Javascript" width="128" />
+              <Image src="./images/react.png" alt="ReactJS" width="128" />
+              <Image src="./images/nextjs.png" alt="NextJS" width="128" />
+              <Image src="./images/nodejs.png" alt="NodeJS" width="128" />
+              <Image src="./images/expressjs.png" alt="ExpressJS" width="128" />
+              <Image src="./images/mongodb.png" alt="MongoDB" width="128" />
+              <Image src="./images/mysql.png" alt="MySQL" width="128" />
+              <Image src="./images/python.png" alt="Python" width="128" />
+              <Image src="./images/java.png" alt="Java" width="128" />
+              <Image src="./images/git.png" alt="Git" width="128" />
+              <Image src="./images/github.png" alt="GitHub" width="128" />
+              <Image src="./images/azure.png" alt="Azure" width="128" />
             </div>
           </div>
         </section>
@@ -192,7 +193,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/workplace1.png" alt="Emproto Technologies" width="100%" />
+                  <Image src="./images/workplace1.png" alt="Emproto Technologies" width={1200} height={800} layout="responsive" />
                   <figcaption>
                     Emproto Technologies
                   </figcaption>
@@ -207,7 +208,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/workplace2.png" alt="CleverBharat" width="100%" />
+                  <Image src="./images/workplace2.png" alt="CleverBharat" width={1200} height={800} layout="responsive" />
                   <figcaption>
                     CleverBharat
                   </figcaption>
@@ -228,22 +229,22 @@ export default function Home() {
           </h2>
           <div className="bento-grid">
             <a href="https://github.com/ashwani-anand/DrowsyDefender" className="bento-item">
-              <img src="./images/drowsydefender.jpeg" alt="DrowsyDefender" width="100%" />
+              <Image src="./images/drowsydefender.jpeg" alt="DrowsyDefender" width={1200} height={800} layout="responsive" />
             </a>
             <a href="https://github.com/ashwani-anand/YouTube-to-Speech-Converter" className="bento-item">
-              <img src="./images/youtube2speech.jpg" alt="YouTube2Speech" width="100%" />
+              <Image src="./images/youtube2speech.jpg" alt="YouTube2Speech" width={1200} height={800} layout="responsive" />
             </a>
             <a href="https://github.com/ashwani-anand/AI-Checkers" className="bento-item">
-              <img src="./images/aicheckers.jpg" alt="AI Checkers" width="100%" />
+              <Image src="./images/aicheckers.jpg" alt="AI Checkers" width={1200} height={800} layout="responsive" />
             </a>
             <a href="https://github.com/ashwani-anand/Web-Article-Scraper" className="bento-item">
-              <img src="./images/webscraper.jpeg" alt="WebScraper" width="100%" />
+              <Image src="./images/webscraper.jpeg" alt="WebScraper" width={1200} height={800} layout="responsive" />
             </a>
             <a href="https://github.com/ashwani-anand/ThrillQuest" className="bento-item">
-              <img src="./images/thrillquest.jpeg" alt="ThrillQuest" width="100%" />
+              <Image src="./images/thrillquest.jpeg" alt="ThrillQuest" width={1200} height={800} layout="responsive" />
             </a>
             <a href="https://github.com/ashwani-anand/QuantTrader" className="bento-item">
-              <img src="./images/quanttrader.jpeg" alt="QuantTrader" width="100%" />
+              <Image src="./images/quanttrader.jpeg" alt="QuantTrader" width={1200} height={800} layout="responsive" />
             </a>
           </div>
         </section>
