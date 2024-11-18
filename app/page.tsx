@@ -40,7 +40,7 @@ export default function Home() {
     <>
       <header>
         <a href="#" className="logo-holder">
-          <div className="logo">L</div>
+          <div className="logo">A</div>
           <div className="logo-text">Portfolio Website</div>
         </a>
         <nav>
