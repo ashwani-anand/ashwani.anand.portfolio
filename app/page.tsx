@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className="hero-yellow">
             <Image src="/images/hero.png" alt="Ashwani Anand" width={1200}
-              height={800} layout="responsive" />
+              height={800} layout="intrinsic" />
           </div>
         </section>
         <section className="logos container">
@@ -193,7 +193,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/workplace1.png" alt="Emproto Technologies" width={1200} height={800} layout="responsive" />
+                  <Image src="/images/workplace1.png" alt="Emproto Technologies" width={1200} height={800} layout="intrinsic" objectFit="contain" />
                   <figcaption>
                     Emproto Technologies
                   </figcaption>
@@ -208,7 +208,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/workplace2.png" alt="CleverBharat" width={1200} height={800} layout="responsive" />
+                  <Image src="/images/workplace2.png" alt="CleverBharat" width={1200} height={800} layout="intrinsic" objectFit="contain" />
                   <figcaption>
                     CleverBharat
                   </figcaption>
@@ -229,22 +229,22 @@ export default function Home() {
           </h2>
           <div className="bento-grid">
             <a href="https://github.com/ashwani-anand/DrowsyDefender" className="bento-item">
-              <Image src="/images/drowsydefender.jpeg" alt="DrowsyDefender" width={1200} height={800} layout="responsive" />
+              <Image src="/images/drowsydefender.jpeg" alt="DrowsyDefender" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
             <a href="https://github.com/ashwani-anand/YouTube-to-Speech-Converter" className="bento-item">
-              <Image src="/images/youtube2speech.jpg" alt="YouTube2Speech" width={1200} height={800} layout="responsive" />
+              <Image src="/images/youtube2speech.jpg" alt="YouTube2Speech" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
             <a href="https://github.com/ashwani-anand/AI-Checkers" className="bento-item">
-              <Image src="/images/aicheckers.jpg" alt="AI Checkers" width={1200} height={800} layout="responsive" />
+              <Image src="/images/aicheckers.jpg" alt="AI Checkers" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
             <a href="https://github.com/ashwani-anand/Web-Article-Scraper" className="bento-item">
-              <Image src="/images/webscraper.jpeg" alt="WebScraper" width={1200} height={800} layout="responsive" />
+              <Image src="/images/webscraper.jpeg" alt="WebScraper" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
             <a href="https://github.com/ashwani-anand/ThrillQuest" className="bento-item">
-              <Image src="/images/thrillquest.jpeg" alt="ThrillQuest" width={1200} height={800} layout="responsive" />
+              <Image src="/images/thrillquest.jpeg" alt="ThrillQuest" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
             <a href="https://github.com/ashwani-anand/QuantTrader" className="bento-item">
-              <Image src="/images/quanttrader.jpeg" alt="QuantTrader" width={1200} height={800} layout="responsive" />
+              <Image src="/images/quanttrader.jpeg" alt="QuantTrader" width={1200} height={800} layout="intrinsic" objectFit="contain" />
             </a>
           </div>
         </section>
