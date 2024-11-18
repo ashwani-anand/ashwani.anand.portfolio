@@ -90,7 +90,7 @@ export default function Home() {
                   <Image src="/images/github.png" alt="GitHub" width="48" />
                 </a>
                 <a href="https://www.linkedin.com/in/ashwani-anand">
-                  <Image src="/images/linkdin.png" alt="LinkedIn" width="48" />
+                  <Image src="/images/linkedin.png" alt="LinkedIn" width="48" />
                 </a>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
               <Image src="/images/nextjs.png" alt="NextJS" width="128" />
               <Image src="/images/nodejs.png" alt="NodeJS" width="128" />
               <Image src="/images/expressjs.png" alt="ExpressJS" width="128" />
-              <Image src="/images/mongo.png" alt="MongoDB" width="128" />
+              <Image src="/images/mongodb.png" alt="MongoDB" width="128" />
               <Image src="/images/mysql.png" alt="MySQL" width="128" />
               <Image src="/images/python.png" alt="Python" width="128" />
               <Image src="/images/java.png" alt="Java" width="128" />
